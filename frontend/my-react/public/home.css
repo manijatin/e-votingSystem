@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f2f2f2;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: rgb(82, 202, 162);
+
+}
+
+.logo img {
+    max-height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 30px;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.image img {
+    margin-left: 400px;
+    margin-top: 200px;
+    max-width: 100%;
+    height: 300px
+}
+
+.image {
+    width: 750px;
+    margin-left: 400px;
+}
+
+.info {
+    text-align: left;
+    margin-left: 200px;
+    margin-top: -250px;
+    width: 700px;
+    margin-bottom: 0px;
+}
+
+.heading h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(8, 8, 8);
+}
+
+.heading h3 {
+    font-style: italic;
+    margin-bottom: 20px;
+    color: white;
+}
+
+p {
+    margin-bottom: 20px;
+    color: white;
+}
+
+.vote-btn {
+    padding: 10px 20px;
+    background-color: rgb(82, 202, 162);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.pretext{
+    color:rgb(60, 59, 59);
+    font-size: 15px;
+}
+
+/* Media Query for smaller screens */
+@media screen and (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+
+    .logo img {
+        max-height: 40px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    nav ul li {
+        margin: 0;
+    }
+
+    .main {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .image {
+        margin: 0;
+    }
+
+    .info {
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    .heading h1 {
+        font-size: 40px;
+    }
+
+    .heading h3 {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .vote-btn {
+        font-size: 14px;
+        padding: 8px 16px;
+    } 
+}

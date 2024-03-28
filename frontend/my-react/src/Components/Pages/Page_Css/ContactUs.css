@@ -1,0 +1,94 @@
+
+/* .App{ 
+    background-image: url('bg.jpg');
+    }  */
+
+main{
+    height:480px;
+    display:flex;
+    }
+
+.logo img {
+    max-height: 50px;
+    }
+
+
+
+.content{
+    margin-top: 80px;
+    margin-left: 60px;
+    /* background-color: red; */
+    width: 450px;
+    text-align: center;
+    }
+p{
+    font-weight: bold;
+    }
+.ContactUs{
+    margin-top: 80px;
+    margin-left: 350px;
+    text-align: center;
+    /* background-color: yellow; */
+    height: 200px;
+    width:400px;
+    }
+footer{width: 100%;
+    background-color:black;
+    height:30px;
+    color: white;
+    position: absolute;
+    bottom :0;
+    text-align: center;
+    padding-bottom: 10px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* img {
+    width: 400px;
+    height: 450px;
+    margin-left:100px;
+    margin-top: 70px;
+}
+p{
+width :500px; 
+ }
+body{
+ display:flex;
+ background-image: url(bg.jpg);
+}
+div{
+margin-left: 70px;
+margin-top: 150px;
+}
+h1{
+
+height:55px;
+}
+.back {
+    padding: 10px 20px;
+    background-color: rgb(85, 200, 161);
+    color: #f4f1f1;
+    border-color: #333;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 10px;
+    touch-action: auto;
+    transition-property: all;
+    transition-duration: 2s;
+}
+.back:hover{
+    background-color: rgb(117, 10, 10);   
+} */
