@@ -16,12 +16,12 @@ function About() {
               <h1 ><u>About Us</u> </h1>
                <h4> Online Voting System </h4>
 
-                 <p> 
+                 <p className="font1"> 
                     <b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi vel 
                    odio veniam corporis non porro mollitia minima 
                    vero minus provident quibusdam tempore inventore, rerum exercitationem 
                     amet enim consequatur hic! Numquam?</b></p>
-                  <p><b> Sed quis cupiditate, laudantium eius sunt fuga illum deleniti corporis 
+                  <p className="font2"><b> Sed quis cupiditate, laudantium eius sunt fuga illum deleniti corporis 
                    eaque temporibus corrupti distinctio praesentium? 
                    Iste, officiis? Hic exercitationem repudiandae molestias sed, enim unde 
                    architecto modi laboriosam nihil non? Quam!
